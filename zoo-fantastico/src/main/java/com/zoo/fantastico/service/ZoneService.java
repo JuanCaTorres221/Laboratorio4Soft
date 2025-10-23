@@ -23,7 +23,10 @@ public class ZoneService {
 
     public List<Zone> getAll() { return repo.findAll(); }
 
-    public Zone getById(Long id) { return repo.findById(id).orElseThrow(() -> new ResourceNotFoundException("Zone not found: " + id)); }
+    public Zone getById(Long id) {
+        return repo.findById(id)
+                .orElseThrow(() -> new ResourceNotFoundException("Zone not found: " + id));
+    }
 
     public Zone updateZone(Long id, Zone data) {
         Zone z = getById(id);
