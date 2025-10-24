@@ -17,7 +17,7 @@ public class CreatureController {
     @Autowired
     public CreatureController(CreatureService service) { this.service = service; }
 
-    @PostMapping("/tres")
+    @PostMapping
     public ResponseEntity<Creature> create(@Valid @RequestBody Creature c) {
         Creature created = service.createCreature(c);
         return ResponseEntity.status(HttpStatus.CREATED).body(created);
