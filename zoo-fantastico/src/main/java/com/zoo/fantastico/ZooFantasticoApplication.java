@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class ZooFantasticoApplication {
-    //prueba
+
 	public static void main(String[] args) {
 		SpringApplication.run(ZooFantasticoApplication.class, args);
 	}
