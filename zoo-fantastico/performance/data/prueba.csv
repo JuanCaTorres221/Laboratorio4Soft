@@ -1,0 +1,53 @@
+name,species,size,danger,healthstatus
+Dragón,Reptil alado,12.5,8,stable
+Fénix,Ave,10.5,7,critical
+Grifo,Híbrido ave-felino,9.2,6,stable
+Basilisco,Serpiente mítica,6.8,9,unstable
+Hidra,Reptil acuático,15.3,10,critical
+Quimera,Híbrido monstruoso,11.1,8,unstable
+Pegaso,Ave equina,8.4,4,stable
+Mantícora,Felino alado,10.9,9,critical
+Leviatán,Ser marino,20.0,10,unstable
+Kraken,Cefalópodo gigante,18.7,9,stable
+Nuckelavee,Demonio equino,13.4,9,critical
+Wyvern,Reptil alado,10.8,7,stable
+Roc,Ave colosal,16.5,8,stable
+Salamandra,Reptil ígneo,3.5,5,stable
+Tatzelwurm,Reptil montañés,4.7,6,stable
+Dragón Esmeralda,Reptil alado,13.0,9,stable
+Dragón Carmesí,Reptil alado,14.1,10,critical
+Fénix Dorado,Ave,9.8,6,stable
+Fénix Azul,Ave,10.2,7,unstable
+Serpiente Marina,Ser marino,17.4,8,stable
+Hipogrifo,Híbrido ave-equino,8.9,5,stable
+Catoblepas,Mamífero místico,7.6,7,unstable
+Gorgona,Serpiente alada,5.3,8,critical
+Cocatriz,Reptil alado,6.1,6,stable
+Dragón de Hielo,Reptil alado,13.7,9,unstable
+Dragón de Fuego,Reptil alado,12.9,10,critical
+Dragón de Tierra,Reptil,11.8,7,stable
+Dragón de Tormenta,Reptil alado,14.2,9,unstable
+Fénix Carmesí,Ave ígnea,10.0,7,stable
+Fénix de Plata,Ave,9.3,6,stable
+Quimera Áurea,Híbrido monstruoso,12.4,8,stable
+Serafín,Ave celestial,7.9,5,stable
+Ifrit,Ser ígneo,8.7,8,critical
+Jörmungandr,Serpiente gigante,25.5,10,unstable
+Roc de las Montañas,Ave colosal,15.8,7,stable
+Wyrm de Cristal,Reptil subterráneo,9.5,6,stable
+Lindworm,Reptil sin alas,8.2,6,stable
+Dragón Sombrío,Reptil alado,13.9,9,critical
+Dragón Celeste,Reptil alado,12.4,8,stable
+Hydrón,Reptil acuático,16.1,9,unstable
+Kraken Abisal,Cefalópodo gigante,21.0,10,critical
+Tifón,Titán alado,30.0,10,critical
+Dracolis,Reptil alado,11.3,7,stable
+Basilisco del Norte,Serpiente mítica,6.9,9,unstable
+Wyvern Escarlata,Reptil alado,9.8,8,stable
+Mantícora del Desierto,Felino alado,11.0,9,stable
+Pegaso Nocturno,Ave equina,8.1,4,stable
+Fénix Sombrío,Ave ígnea,9.7,7,critical
+Dragón de Cobre,Reptil alado,12.0,7,stable
+Leviatán del Abismo,Ser marino,22.3,10,critical
+
+
