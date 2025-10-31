@@ -1,0 +1,177 @@
+{
+	"id": "c4afcb21-465e-4dfb-a7db-7da332e68ebe",
+	"name": "Pruebas-Laboratorio4",
+	"timestamp": "2025-10-24T03:03:49.114Z",
+	"collection_id": "48924952-5d135957-5b9e-456b-bc94-c7c566643840",
+	"folder_id": 0,
+	"environment_id": "48924952-3bb5d123-1ff7-465f-8676-f957179901dc",
+	"totalPass": 5,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-10-24T03:03:48.317Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "818550cf-f3f8-4fdc-8403-3183b51e5cc0",
+			"name": "Crear Zona",
+			"url": "http://localhost:8080/api/zones",
+			"time": 9,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Zone created successfully": true
+			},
+			"testPassFailCounts": {
+				"Zone created successfully": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"Zone created successfully": true
+				}
+			]
+		},
+		{
+			"id": "13e6be19-9a07-47dc-ad93-153acc4c66ad",
+			"name": "Listar Zona",
+			"url": "http://localhost:8080/api/zones",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get all zones - OK": true
+			},
+			"testPassFailCounts": {
+				"Get all zones - OK": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				7
+			],
+			"allTests": [
+				{
+					"Get all zones - OK": true
+				}
+			]
+		},
+		{
+			"id": "ce8eb706-105f-4f9f-bfd8-10b291f0da7f",
+			"name": "Obtener Zona",
+			"url": "http://localhost:8080/api/zones/3",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get zone by ID": true
+			},
+			"testPassFailCounts": {
+				"Get zone by ID": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				8
+			],
+			"allTests": [
+				{
+					"Get zone by ID": true
+				}
+			]
+		},
+		{
+			"id": "4fa28ccd-a416-405e-8fb7-5adcdecc158c",
+			"name": "Actualizar Zona",
+			"url": "http://localhost:8080/api/zones/3",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Zone updated successfully": true
+			},
+			"testPassFailCounts": {
+				"Zone updated successfully": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				11
+			],
+			"allTests": [
+				{
+					"Zone updated successfully": true
+				}
+			]
+		},
+		{
+			"id": "35335357-71b5-40f4-8c82-f2a4394f940a",
+			"name": "Eliminar Zona",
+			"url": "http://localhost:8080/api/zones/3",
+			"time": 8,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Zone deleted successfully": true
+			},
+			"testPassFailCounts": {
+				"Zone deleted successfully": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				8
+			],
+			"allTests": [
+				{
+					"Zone deleted successfully": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 43,
+	"collection": {
+		"requests": [
+			{
+				"id": "818550cf-f3f8-4fdc-8403-3183b51e5cc0",
+				"method": "POST"
+			},
+			{
+				"id": "13e6be19-9a07-47dc-ad93-153acc4c66ad",
+				"method": "GET"
+			},
+			{
+				"id": "ce8eb706-105f-4f9f-bfd8-10b291f0da7f",
+				"method": "GET"
+			},
+			{
+				"id": "4fa28ccd-a416-405e-8fb7-5adcdecc158c",
+				"method": "PUT"
+			},
+			{
+				"id": "35335357-71b5-40f4-8c82-f2a4394f940a",
+				"method": "DELETE"
+			}
+		]
+	}
+}

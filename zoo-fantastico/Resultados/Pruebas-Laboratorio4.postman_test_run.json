@@ -1,0 +1,183 @@
+{
+	"id": "d656f66f-f96b-4dd3-b4bf-72674557a398",
+	"name": "Pruebas-Laboratorio4",
+	"timestamp": "2025-10-24T02:45:30.135Z",
+	"collection_id": "48924952-5d135957-5b9e-456b-bc94-c7c566643840",
+	"folder_id": 0,
+	"environment_id": "48924952-3bb5d123-1ff7-465f-8676-f957179901dc",
+	"totalPass": 6,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-10-24T02:45:29.431Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "a8ea07af-832e-4466-a0ea-401ff4ddb89b",
+			"name": "Crear",
+			"url": "http://localhost:8080/api/creatures",
+			"time": 9,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Creature created successfully": true
+			},
+			"testPassFailCounts": {
+				"Creature created successfully": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"Creature created successfully": true
+				}
+			]
+		},
+		{
+			"id": "6eb3726e-27a6-4a7d-a8b8-969a00dba380",
+			"name": "Listar",
+			"url": "http://localhost:8080/api/creatures",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get all creatures - OK": true
+			},
+			"testPassFailCounts": {
+				"Get all creatures - OK": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Get all creatures - OK": true
+				}
+			]
+		},
+		{
+			"id": "c39de77c-9433-4bda-934b-edb1736355cc",
+			"name": "Obtener",
+			"url": "http://localhost:8080/api/creatures/8\n",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status 200": true,
+				"Body has correct ID": true
+			},
+			"testPassFailCounts": {
+				"Status 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body has correct ID": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status 200": true,
+					"Body has correct ID": true
+				}
+			]
+		},
+		{
+			"id": "a4873fcd-9a5a-40bf-aacc-4b71d24fb6a6",
+			"name": "Actualizar",
+			"url": "http://localhost:8080/api/creatures/8",
+			"time": 10,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Creature updated successfully": true
+			},
+			"testPassFailCounts": {
+				"Creature updated successfully": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				10
+			],
+			"allTests": [
+				{
+					"Creature updated successfully": true
+				}
+			]
+		},
+		{
+			"id": "f008959d-433d-4e35-b9ef-bcd88dd31632",
+			"name": "Eliminar",
+			"url": "http://localhost:8080/api/creatures/8",
+			"time": 7,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Creature deleted successfully": true
+			},
+			"testPassFailCounts": {
+				"Creature deleted successfully": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				7
+			],
+			"allTests": [
+				{
+					"Creature deleted successfully": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 37,
+	"collection": {
+		"requests": [
+			{
+				"id": "a8ea07af-832e-4466-a0ea-401ff4ddb89b",
+				"method": "POST"
+			},
+			{
+				"id": "6eb3726e-27a6-4a7d-a8b8-969a00dba380",
+				"method": "GET"
+			},
+			{
+				"id": "c39de77c-9433-4bda-934b-edb1736355cc",
+				"method": "GET"
+			},
+			{
+				"id": "a4873fcd-9a5a-40bf-aacc-4b71d24fb6a6",
+				"method": "PUT"
+			},
+			{
+				"id": "f008959d-433d-4e35-b9ef-bcd88dd31632",
+				"method": "DELETE"
+			}
+		]
+	}
+}
